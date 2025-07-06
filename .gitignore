@@ -13,7 +13,7 @@ __pycache__/
 *.swo
 *.sublime-workspace
 *.sublime-project
-*.vscode/
+.vscode/
 .idea/
 *.code-workspace
 
