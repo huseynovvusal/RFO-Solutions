@@ -23,6 +23,10 @@ These solutions serve as:
 3. Run the code with appropriate test inputs
 4. Study the algorithmic approach used
 
+## 🤝 Contributing
+
+Want to contribute? Check out our [Contributing Guidelines](CONTRIBUTING.md) for detailed instructions.
+
 ---
 
 _Good luck with your competitive programming journey! 🌟_
