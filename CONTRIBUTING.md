@@ -11,6 +11,8 @@ Thank you for your interest in contributing to this Azerbaijani Informatics Olym
    ```bash
    git clone https://github.com/<your-username>/RFO-Solutions.git
    cd RFO-Solutions
+   git remote add upstream https://github.com/huseynovvusal/RFO-Solutions.git
+   git pull upstream main
    ```
 3. **Create** a new branch for your solution - Keep your changes organized
    ```bash
