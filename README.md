@@ -1,7 +1,5 @@
-## 🚀 About
+<h1>Azerbaijan National Olympiad In Informatics</h1>
 
 This repository showcases solutions to various algorithmic problems from the Azerbaijani National Informatics Olympiad. 
 
----
-
-_Good luck with your competitive programming journey! 🌟_
+<i>Good luck with your competitive programming journey!🌟<i>
