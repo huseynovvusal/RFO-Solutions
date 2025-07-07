@@ -7,17 +7,22 @@ Thank you for your interest in contributing to this Azerbaijani Informatics Olym
 ### 📝 Adding New Solutions
 
 1. **Fork** this repository - Create your own copy of the project
-2. **Create** a new branch for your solution - Keep your changes organized
+2. **Clone** your forked repository - Download it to your local machine
+   ```bash
+   git clone https://github.com/<your-username>/RFO-Solutions.git
+   cd RFO-Solutions
+   ```
+3. **Create** a new branch for your solution - Keep your changes organized
    ```bash
    git checkout -b your-branch-name
    ```
-3. **Add** your solution file with a descriptive name - Use problem titles in filename
-4. **Include** comments explaining your approach - Help others understand your logic
-5. **Submit** a pull request - Share your contribution with the community
+4. **Add** your solution file with a descriptive name - Use problem titles in filename
+5. **Include** comments explaining your approach - Help others understand your logic
+6. **Submit** a pull request - Share your contribution with the community
    ```bash
    git add .
-   git commit -m "Add solution for [Problem Name]"
-   git push origin your-branch-name
+   git commit -m "<Your descriptive commit message>"
+   git push origin <your-branch-name>
    ```
 
 ### 📋 Guidelines
