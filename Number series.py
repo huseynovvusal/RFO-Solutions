@@ -1,4 +1,4 @@
-# https://basecamp.eolymp.com/az/problems/11116
+# https://basecamp.eolymp.com/en/problems/11116
 import math
 
 def main():
