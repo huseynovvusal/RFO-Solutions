@@ -1,4 +1,5 @@
-# https://basecamp.eolymp.com/az/problems/9639
+# https://basecamp.eolymp.com/en/problems/9639
+
 n = int(input())
 mp = {}
 
