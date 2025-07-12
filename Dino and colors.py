@@ -1,4 +1,5 @@
-# https://basecamp.eolymp.com/az/problems/9636
+# https://basecamp.eolymp.com/en/problems/9636
+
 a, b = map(int, input().split())
 sum_val = a - 2 * b
 
