@@ -1,4 +1,5 @@
-# https://basecamp.eolymp.com/az/problems/9640
+# https://basecamp.eolymp.com/en/problems/9640
+
 def main():
     n = int(input())  
     v = []  
