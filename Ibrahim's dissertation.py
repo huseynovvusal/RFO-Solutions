@@ -1,3 +1,5 @@
+# https://basecamp.eolymp.com/en/problems/11669
+
 n,k = map(int,input().split())
 
 arr = []
