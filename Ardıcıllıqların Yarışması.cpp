@@ -1,20 +1,21 @@
-#include<iostream>
-#include<vector>
-#include<random>
-#include<chrono>
-#include<algorithm>
-#include<set>
-#include<map>
-#include<ios>
-#include<cstring>
-//#include <ext/pb_ds/assoc_container.hpp>
-//#include <ext/pb_ds/tree_policy.hpp>
-#define SPEED ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0)
+#include <iostream>
+#include <vector>
+#include <random>
+#include <chrono>
+#include <algorithm>
+#include <set>
+#include <map>
+#include <ios>
+#include <cstring>
+#define SPEED                         \
+    ios_base::sync_with_stdio(false); \
+    cin.tie(0);                       \
+    cout.tie(0)
 #define oo 1000000001
-#define in(x) scanf("%d",&x)
-#define IN(x) scanf("%ld",&x)
-#define all(v) v.begin(),v.end()
-#define rall(v) v.rbegin(),v.rend()
+#define in(x) scanf("%d", &x)
+#define IN(x) scanf("%ld", &x)
+#define all(v) v.begin(), v.end()
+#define rall(v) v.rbegin(), v.rend()
 #define F first
 #define S second
 #define pii pair<int, int>
@@ -24,9 +25,6 @@
 #define left lefttt
 #define right righttt
 #define y1 y_1
-
-//using namespace __gnu_pbds;
-//template<class T> using ost = tree<T, null_type,less<T>, rb_tree_tag,tree_order_statistics_node_update>;
 
 using namespace std;
 using ld = long double;
@@ -42,27 +40,39 @@ int n;
 int a[sz];
 bool has_one;
 
-signed main(){
+signed main()
+{
     SPEED;
     cin >> n;
-    for(register int i = 1; i <= n; ++i){
-            cin >> a[i];
-            if(a[i] == 1) has_one = true;
+    for (register int i = 1; i <= n; ++i)
+    {
+        cin >> a[i];
+        if (a[i] == 1)
+            has_one = true;
     }
-    if(!has_one){
+    if (!has_one)
+    {
         cout << 0 << '\n';
         return 0;
     }
     int l{1}, r{n}, peak{1};
     bool has{true};
-    while(l <= r){
-        if(a[l] == peak && (a[r] ^ peak)){
+    while (l <= r)
+    {
+        if (a[l] == peak && (a[r] ^ peak))
+        {
             --r;
-        }else if((a[l] ^ peak) && a[r] == peak){
+        }
+        else if ((a[l] ^ peak) && a[r] == peak)
+        {
             ++l;
-        }else if((a[l] ^ peak) && (a[r] ^ peak)){
+        }
+        else if ((a[l] ^ peak) && (a[r] ^ peak))
+        {
             ++l, --r;
-        }else{
+        }
+        else
+        {
             ++l, --r, ++peak;
         }
     }
