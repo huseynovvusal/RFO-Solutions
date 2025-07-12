@@ -1,4 +1,4 @@
-# https://basecamp.eolymp.com/az/problems/9638
+# https://basecamp.eolymp.com/en/problems/9638
 
 a, b = map(int, input().split())
 
