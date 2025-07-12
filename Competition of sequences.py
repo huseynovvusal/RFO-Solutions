@@ -1,4 +1,4 @@
-# https://www.eolymp.com/az/problems/9631
+# https://www.eolymp.com/en/problems/9631
 
 n = int(input())
 

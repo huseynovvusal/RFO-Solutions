@@ -1,3 +1,5 @@
+// https://basecamp.eolymp.com/en/problems/9631
+
 #include <iostream>
 #include <vector>
 #include <random>
