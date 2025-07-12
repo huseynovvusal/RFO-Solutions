@@ -1,4 +1,4 @@
-# https://basecamp.eolymp.com/az/problems/9001
+# https://basecamp.eolymp.com/en/problems/9001
 a, b = map(int, input().split())
 
 if a > 0 and b > 0:
