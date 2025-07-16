@@ -1,6 +1,7 @@
 // https://basecamp.eolymp.com/en/problems/9637
 
 #include <stdio.h>
+
 int main()
 {
 	int a, b, mb;
