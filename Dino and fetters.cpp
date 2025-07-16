@@ -1,7 +1,9 @@
 // https://basecamp.eolymp.com/en/problems/9640
 
 #include <bits/stdc++.h>
+
 using namespace std;
+
 int main()
 {
 	vector<int> v;
