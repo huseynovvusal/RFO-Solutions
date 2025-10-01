@@ -23,6 +23,10 @@ These solutions serve as:
 3. Run the code with appropriate test inputs
 4. Study the algorithmic approach used
 
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=huseynovvusal/RFO-Solutions&type=Date)](https://www.star-history.com/#huseynovvusal/RFO-Solutions&Date)
+
 ## 🤝 Contributing
 
 Want to contribute? Check out our [Contributing Guidelines](CONTRIBUTING.md) for detailed instructions.
